@@ -1,0 +1,47 @@
+<script type="text/markdown">
+# Nesting
+Elements can be put inside other elements. This is called *nesting*{.voc}. You can put something inside an element by putting it between its opening and closing tags:
+
+:::: div .flex
+```html
+<html>
+  <body>
+    <h1>My Heading</h1>
+    <section>
+      <h2>Top 5 movies</h2>
+      <ol>
+        <li>Toy Story 4</li>
+        <li>Detective Pikachu</li>
+        <li>Spiderman</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Cat Breeds</h2>
+      <ul>
+        <li>Tabby</li>
+        <li>Persian</li>
+        <li>Maine Coon<li>
+      </ul>
+    </section>
+  </body>
+</html>
+```
+::: div .pad-med
+This HTML produces the following structure:
+
+![nesting graph](.guides/img/nesting-graph.png)
+:::
+::::
+
+
+Notice how the diagram above looks like a family tree? We use the same terms in HTML to describe the relationship between elements and how they are nested:
+
+|                    |                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------- |
+| *parent*{.voc}     | The parent of `<h2>` is `<section>`, and the parent of `<section>` is `<body>`. |
+| *child*{.voc}      | `<h2>` and `<ul>` are children of `<section>`. The `<ul>` has four children.    |
+| *descendent*{.voc} | `<li>` is a descendent of `<ul>`, `<section>`, `<body>`, and `<html>`.          |
+| *ancestor*{.voc}   | `<section>` is an ancestor of `<h2>`, `<ul>`, and all `<li>` elements within.   |
+
+{.table .noheader .first-column-header}
+</script>

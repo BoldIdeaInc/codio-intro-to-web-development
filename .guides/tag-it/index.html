@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tag-it!</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+	<body>
+
+    <div class="container">
+			<div class="workspace">
+        <div class="instructions">
+          <h1>Tag-It!</h1>
+          <p>
+            The web page to the right is made of several parts. See if you can identify the
+            following elements: a <em>heading</em>, a <em>paragraph</em>, 
+            an <em>image</em>, and a <em>video</em>.
+          </p>
+          <!--
+          <p>
+            <strong>Before you start</strong>, be sure you've read the section on <em>Elements</em> and <em>Document Structure</em>
+            in your <a href="https://wiki.boldidea.org/images/0/0b/HTML_Reference.pdf" target="_blank">HTML Reference</a>.
+          </p>
+          -->
+          <h2>Mark Up the document</h2>
+          <ul>
+            <li>Drag the tags below to the correct space to "mark up" the document.</li>
+            <li>
+              Place the opening and the closing <code>&lt;body&gt;</code> tags inside the <code>&lt;html&gt;</code>
+              element, but outside all of the other elements.
+            </li>
+            <li>
+              Place the remaining tags in the correct space. You'll know you got it right when they all turn green!
+            </li>
+          </ul>
+        </div>
+        <div class="tags">
+          <div class="tags-container">
+            <div class="tag" data-tag-name="html-open">&lt;<span>html</span>&gt;</div>
+            <div class="tag" data-tag-name="html-close">&lt;/<span>html</span>&gt;</div>
+            <div class="tag" data-tag-name="body-open">&lt;<span>body</span>&gt;</div>
+            <div class="tag" data-tag-name="body-close">&lt;/<span>body</span>&gt;</div>
+            <div class="tag" data-tag-name="h1-open">&lt;<span>h1</span>&gt;</div>
+            <div class="tag" data-tag-name="h1-close">&lt;/<span>h1</span>&gt;</div>
+            <div class="tag" data-tag-name="p-open">&lt;<span>p</span>&gt;</div>
+            <div class="tag" data-tag-name="p-close">&lt;/<span>p</span>&gt;</div>
+            <div class="tag" data-tag-name="img">&lt;<span>img</span> src="pup.jpg"&gt;</div>
+            <div class="tag" data-tag-name="video">&lt;<span>video</span> src="pup.mp4"&gt;</div>
+          </div>
+        </div>
+        <div class="show-on-complete">
+          <p class="congrats">Congrats, you did it!</p>
+          <a class="btn" href="javascript:window.parent.codio.goToNextSection()">Continue ▸</a>
+        </div>
+			</div>
+      <div class="browser-frame">
+        <div class="viewport">
+          <div class="url">🔒 https://example.com/news/mustache-puppy.html</div>
+          <div class="document">
+            <div class="element html">
+              <div class="tag-space" data-tag-name="html-open"></div>
+              <div class="element body">
+                <div class="tag-space" data-tag-name="body-open"></div>
+                <div class="element heading">
+                  <div class="tag-space inline" data-tag-name="h1-open"></div>
+                  <div class="text">Mustache Puppy Steals Our Hearts</div>
+                  <div class="tag-space inline" data-tag-name="h1-close"></div>
+                </div>
+                <div class="element paragraph">
+                  <div>
+                    <div class="tag-space" data-tag-name="p-open"></div>
+                  </div>
+                  <div class="element image">
+                    <div class="tag-space" data-tag-name="img"></div>
+                    <img src="mustache-puppy-img.png">
+                  </div>
+                  A charming stray puppy has become an internet darling thanks to her prominent "handlebar mustache"
+                  skin pigmentation, which closely resembles the iconic facial hair of the late Spanish artist
+                  Salvador Dali. Five-week-old "Salvador Dolly," along with her brown shepherd mother and ten
+                  siblings, were found on the streets of Dallas, Texas, by Hearts &amp; Bones Rescue volunteers on
+                  July 10, 2019.
+                  <div>
+                    <div class="tag-space" data-tag-name="p-close"></div>
+                  </div>
+                </div>
+                <div class="element video">
+                  <div class="tag-space" data-tag-name="video"></div>
+                  <img src="mustache-puppy-video.png">
+                </div>
+                <div class="tag-space" data-tag-name="body-close"></div>
+              </div>
+              <div class="tag-space" data-tag-name="html-close"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+
+		<script>
+			$(function() {
+        $('.tag').draggable({
+          snap: '.tag-space',
+          snapMode: 'inner',
+          snapTolerance: 10,
+          start: function(event, ui) {
+            $(this).removeClass('correct');
+          }
+        });
+        $('.tag-space').droppable({
+          accept: '.tag',
+          drop: function(event, ui) {
+            var tagEl = ui.draggable;
+            var srcTagName = tagEl.data('tag-name');
+            if (this.dataset.tagName == srcTagName) {
+              console.log('Correct!');
+              var offsetParent = $(this).offsetParent();
+              var parentStyle = window.getComputedStyle(offsetParent[0]);
+              var offsetTop = this.offsetTop;
+              var offsetLeft = this.offsetLeft;
+              tagEl.appendTo(offsetParent);
+              tagEl.css({
+                position: 'absolute',
+                left: offsetLeft + 'px',
+                top: offsetTop + 'px',
+                margin: 0
+              });
+              tagEl.addClass('correct');
+              tagEl.draggable('disable');
+            } else {
+              console.log('Try again.');
+            }
+            checkAnswers();
+          }
+        });
+			});
+
+      function complete() {
+        $('.show-on-complete').show();
+      }
+
+      function checkAnswers() {
+        var anyIncorrect = false;
+        $('.tag').each(function() {
+          if (!this.classList.contains('correct')) {
+            anyIncorrect = true;
+          }
+        });
+        if (!anyIncorrect) {
+          complete();
+        }
+      }
+
+		</script>
+	</body>
+</html>

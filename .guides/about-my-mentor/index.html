@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <title>About My Mentor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <h1>About My Mentor</h1>
+      <div class="instructions">
+        <p>Ask your mentor the following questions and fill out their answers below.</p>
+        <p>
+          Then, create a web page in your HTML editor with the same information, using the HTML code shown in
+          <code>blue</code>.
+        </p>
+      </div>
+
+      <section class="questions">
+        <div class="question">
+          <p>What is your mentor's name?</p>
+          <div class="element same-line">
+            <div class="tag">&lt;h1&gt;</div>
+            <input type="text" class="input" id="heading">
+            <div class="tag">&lt;/h1&gt;</div>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>What is your mentor's favorite motto or catchphrase?</p>
+          <div class="element same-line">
+            <div class="tag">&lt;h2&gt;</div>
+            <input type="text" class="input" id="subheading">
+            <div class="tag">&lt;/h2&gt;</div>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>Describe what your mentor does for a living in two or more sentences.</p>
+          <div class="element">
+            <div class="tag">&lt;p&gt;</div>
+            <div class="children">
+              <textarea class="input child" rows="4" id="paragraph"></textarea>
+            </div>
+            <div class="tag">&lt;/p&gt;</div>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>List three of your mentor's favorite movies, books, shows, or games:</p>
+          <div class="element same-line pre">
+            <div class="tag">&lt;p&gt;</div>
+            <div class="content">Some of <span class="name">(name)</span>'s favorite things:</div>
+            <div class="tag">&lt;/p&gt;</div>
+          </div>
+          <div class="element">
+            <div class="tag">&lt;ul&gt;</div>
+            <div class="children">
+              <div class="element same-line">
+                <div class="tag">&lt;li&gt;</div>
+                <input type="text" class="input" id="item1">
+                <div class="tag">&lt;/li&gt;</div>
+              </div>
+              <div class="element same-line">
+                <div class="tag">&lt;li&gt;</div>
+                <input type="text" class="input" id="item2">
+                <div class="tag">&lt;/li&gt;</div>
+              </div>
+              <div class="element same-line">
+                <div class="tag">&lt;li&gt;</div>
+                <input type="text" class="input" id="item3">
+                <div class="tag">&lt;/li&gt;</div>
+              </div>
+            </div>
+            <div class="tag">&lt;/ul&gt;</div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+    <script>
+      (function() {
+        var name = document.getElementById('heading');
+        function updateName() {
+          var firstName = name.value.split(' ')[0];
+          var placeholder = document.querySelector('span.name');
+          placeholder.innerText = firstName;
+        }
+
+        if (window.location.hash === '#formOnly') {
+          document.body.classList.add('form-only');
+        }
+
+        name.addEventListener('change', updateName);
+
+        document.querySelectorAll('.input').forEach(function(el) {
+          var key = 'interview-activity-' + el.id;
+          el.value = localStorage.getItem(key);
+          el.addEventListener('change', function() {
+            localStorage.setItem(key, el.value);
+          });
+        });
+
+        updateName();
+      })();
+    </script>
+  </body>
+</html>

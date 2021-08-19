@@ -1,0 +1,283 @@
+{
+ "sections": [
+  {
+   "id": "8c05d15c-98e0-d6cc-5344-9a4537cf9e6a",
+   "title": "Behind the Curtain",
+   "files": [
+    {
+     "path": "#preview: 01-behind-the-curtain/comfty-website/index.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Behind-the-Curtain-8c05.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7eaf7622-f99a-0ce6-048e-fb1ff3cf05f8",
+   "title": "Behind the Curtain: HTML",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "01-behind-the-curtain/comfty-website/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 01-behind-the-curtain/comfty-website/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Behind-the-Curtain--HTML-7eaf.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7b71664f-7e7d-93e0-58ce-31250339118d",
+   "title": "Behind the Curtain: CSS",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "01-behind-the-curtain/comfty-website/style.css",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 01-behind-the-curtain/comfty-website/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Behind-the-Curtain--CSS-7b71.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8c544df0-028a-a57e-679e-4f4b69a5c700",
+   "title": "Elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Elements-8c54.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "23234887-89bf-aa6a-72b4-c2b08bc59a24",
+   "title": "Nesting",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Nesting-2323.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "81617db7-44cf-c7e9-d75f-dcee36ec4eda",
+   "title": "Document Structure",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Document-Structure-8161.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "af5a50cf-745f-8876-90c6-467771c2fda4",
+   "title": "Challenge: Tag-It!",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Challenge--Tag-It--af5a.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dad7f3c8-ff0a-2657-c0e2-a0bc6e372aa9",
+   "title": "About My Mentor: Interview",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/About-My-Mentor--Interview-dad7.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3e9f7bda-b412-751a-f771-99f8dff833aa",
+   "title": "About My Mentor: Code",
+   "files": [
+    {
+     "path": "03-about-my-mentor/about-my-mentor.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/About-My-Mentor--Code-3e9f.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "859ba998-d643-eade-abb3-2348443f83ce",
+   "title": "About My Mentor: Preview",
+   "files": [
+    {
+     "path": "03-about-my-mentor/about-my-mentor.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 03-about-my-mentor/about-my-mentor.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [
+    "08-about-my-mentor"
+   ],
+   "type": "html",
+   "content-file": ".guides/content/About-My-Mentor--Preview-859b.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "abc9e166-c0a0-c0c9-1509-ed76f33eb795",
+   "title": "Make a How-To Page",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Make-a-How-To-Page-abc9.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6a345fd5-5ef8-bc77-d5b1-d5e7517e365b",
+   "title": "Start a new HTML page",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Start-a-new-HTML-page-6a34.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "73a0e3fa-bd5d-628f-f486-aad3f303ad2d",
+   "title": "Under Construction",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Under-Construction-73a0.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": false,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

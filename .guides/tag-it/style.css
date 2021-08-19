@@ -1,0 +1,217 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: sans-serif;
+}
+@media only screen and (max-height: 800px) {
+  .instructions {
+    font-size: .8em;
+  }
+}
+.container {
+  flex: 1;
+  display: flex;
+  background: #eee;
+}
+.container > div {
+  margin: 20px;
+  flex: 1;
+}
+.workspace {
+  border: 1px solid black;
+}
+
+.workspace {
+  padding: 20px;
+  max-width: 600px;
+  background: white;
+}
+
+.instructions {
+  line-height: 1.5em;
+}
+.instructions em {
+  color: darkslateblue;
+  font-weight: bold;
+  font-style: normal;
+}
+.instuctions a, .instructions a:visited {
+  color: blue;
+  text-decoration: none;
+}
+.instructions a:hover {
+  text-decoration: underline;
+}
+.show-on-complete {
+  display: none;
+}
+.congrats {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgba(0, 100, 0, .65);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  background: rgb(74, 134, 232);
+  border-radius: 10px; 
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn.continue {
+  display: none;
+}
+
+h1 {
+  margin-top: 0;
+}
+h2 {
+  margin-bottom: 0;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+}
+h2 + p {
+  margin-top: .5em;
+}
+
+.tag-space, .tag {
+  display: inline-block;
+  text-align: center;
+  width: 75px;
+  height: 25px;
+  white-space: nowrap;
+  padding: 0px 8px 0px 8px;
+  vertical-align: bottom;
+  line-height: 25px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .75);
+}
+.tag[data-tag-name="img"],
+.tag[data-tag-name="video"] {
+  width: 200px;
+}
+.tags h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tags-container {
+  user-select: none;
+}
+.tag {
+  font-family: monospace;
+  display: inline-block;
+  margin: 10px;
+  background: rgba(10, 50, 200, .65);
+  color: white;
+  z-index: 999;
+  cursor: default;
+  cursor: grab;
+}
+.tag span {
+  font-weight: bold;
+}
+.tag.correct {
+  background: rgba(0, 100, 0, .65);
+  cursor: default;
+}
+.viewport .tag-space {
+  margin: 10px 0 10px -20px;
+  border: 1px dashed black;
+}
+.browser-frame .viewport {
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+  background: white;
+  min-width: 700px;
+  max-width: 700px;
+  width: 700px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.browser-frame .document {
+  height: 100%;
+  overflow: auto;
+}
+
+.browser-frame .url {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+.browser-frame .element {
+  padding: 10px 10px 10px 40px;
+}
+.element.html {
+  position: relative;
+}
+.element.body {
+  background: lightblue;
+}
+.element.heading {
+  background: lightyellow;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.35em;
+  font-weight: bold;
+}
+.element.heading .text {
+  flex: 1;
+  text-align: center;
+  margin-left: -20px;
+}
+.element.paragraph {
+  background: lightpink;
+  margin-bottom: 20px;
+}
+.element.paragraph .tag-space {
+  margin: 0 0 0 -20px;
+}
+.element.heading > div {
+  display: inline-block;
+}
+.element.paragraph {
+  font-size: 1em;
+  line-height: 2em;
+}
+.element.image,
+.element.video {
+  position: relative;
+  padding: 0;
+}
+.element.image .tag-space,
+.element.video .tag-space {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 200px;
+  margin: 0;
+}
+.element.image {
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+.element.video {
+  width: 400px;
+}
+.element.image img {
+  width: 240px;
+}
+.element.video img {
+  width: 400px;
+}
+
+.tag {
+  font-size: 1.2em;
+}

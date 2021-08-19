@@ -1,0 +1,82 @@
+.men {
+    font-family: 'MuseoModerno', cursive;
+}
+
+/*.clothingSection {
+    height: 500px;
+  text-align:center;
+}*/
+
+.column {
+  width:250px;
+  margin:10px;
+  float:center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: Gold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+body{
+  background-color:silver;
+  color:white;
+  text-align:center;
+  margin:0;
+  padding-top: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%vw;
+  justify-content: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,118 @@
+{
+ "name": "Intro to Web Development",
+ "children": [
+  {
+   "title": "Intro Activities",
+   "id": "32cf4915-979a-ea3a-49fc-9fdcffb4136b",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Behind the Curtain",
+     "id": "277e4f5a-3745-c580-f50d-c651e216f9dd",
+     "type": "section",
+     "children": [
+      {
+       "title": "Behind the Curtain",
+       "id": "8ed11611-f9cb-8b90-3710-434029ccb1cb",
+       "type": "page",
+       "pageId": "8c05d15c-98e0-d6cc-5344-9a4537cf9e6a"
+      },
+      {
+       "title": "Behind the Curtain: HTML",
+       "id": "90d73798-45e3-02ed-d0ae-50823246e19b",
+       "type": "page",
+       "pageId": "7eaf7622-f99a-0ce6-048e-fb1ff3cf05f8"
+      },
+      {
+       "title": "Behind the Curtain: CSS",
+       "id": "cb822813-ec8c-80b5-29d8-a1e2874d6071",
+       "type": "page",
+       "pageId": "7b71664f-7e7d-93e0-58ce-31250339118d"
+      }
+     ]
+    },
+    {
+     "title": "Elements and Document Structure",
+     "id": "5d1eac41-5826-2aa3-d01f-f1d7a3ca04a9",
+     "type": "section",
+     "children": [
+      {
+       "title": "Elements",
+       "id": "05a99867-f14c-a6cb-e29e-8dc4f3f64778",
+       "type": "page",
+       "pageId": "8c544df0-028a-a57e-679e-4f4b69a5c700"
+      },
+      {
+       "title": "Nesting",
+       "id": "3dd17554-e267-db79-83b2-cbc6c26260d9",
+       "type": "page",
+       "pageId": "23234887-89bf-aa6a-72b4-c2b08bc59a24"
+      },
+      {
+       "title": "Document Structure",
+       "id": "607e2df6-ef0a-9f1d-8d23-4654bed48294",
+       "type": "page",
+       "pageId": "81617db7-44cf-c7e9-d75f-dcee36ec4eda"
+      },
+      {
+       "title": "Challenge: Tag-It!",
+       "id": "a124a184-e1ac-b974-7818-45dc9295eaea",
+       "type": "page",
+       "pageId": "af5a50cf-745f-8876-90c6-467771c2fda4"
+      }
+     ]
+    },
+    {
+     "title": "About My Mentor",
+     "id": "47f7f6e3-d9fe-d02c-9f6f-1ff438464003",
+     "type": "section",
+     "children": [
+      {
+       "title": "About My Mentor: Interview",
+       "id": "8512158f-e9df-acdd-1fe5-cf67ab64e41f",
+       "type": "page",
+       "pageId": "dad7f3c8-ff0a-2657-c0e2-a0bc6e372aa9"
+      },
+      {
+       "title": "About My Mentor: Code",
+       "id": "b0284995-2f7a-175c-c449-33ee1ddcbb09",
+       "type": "page",
+       "pageId": "3e9f7bda-b412-751a-f771-99f8dff833aa"
+      },
+      {
+       "title": "About My Mentor: Preview",
+       "id": "138a055a-06e6-c642-bf7e-fad929ffdf9f",
+       "type": "page",
+       "pageId": "859ba998-d643-eade-abb3-2348443f83ce"
+      }
+     ]
+    },
+    {
+     "title": "Make a How-To Page",
+     "id": "3aa2ea51-6096-2503-44ac-596a4d677098",
+     "type": "section",
+     "children": [
+      {
+       "id": "1c3db0de-a3b8-3a93-a643-3f1e4d309b25",
+       "title": "Make a How-To Page",
+       "pageId": "abc9e166-c0a0-c0c9-1509-ed76f33eb795",
+       "type": "page"
+      },
+      {
+       "id": "ef64d8ad-1542-461f-f16c-43fdb70aac18",
+       "title": "Start a new HTML page",
+       "pageId": "6a345fd5-5ef8-bc77-d5b1-d5e7517e365b",
+       "type": "page"
+      }
+     ]
+    },
+    {
+     "title": "Under Construction",
+     "id": "7cf3528f-faaa-5d83-6752-0640ec400bad",
+     "type": "page",
+     "pageId": "73a0e3fa-bd5d-628f-f486-aad3f303ad2d"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:wght@400;700&display=swap');
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.instructions code {
+  color: rgb(74, 134, 232);
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0 8px;
+}
+
+h1 {
+  color: rgb(74, 134, 232);
+  margin-top: 0;
+}
+
+.questions {
+  border: 2px solid #ccc;
+  padding: 10px 30px;
+}
+
+.questions p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.questions .question {
+  margin-bottom: 30px;
+}
+
+.element {
+  margin: 0 0 10px 0;
+}
+
+.element input,
+.element textarea {
+  font-size: 1em;
+  padding: 5px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.element input {
+  border: 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+  color: rgb(74, 134, 232);
+}
+.element input:focus {
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid rgb(74, 134, 232);
+  padding-bottom: 0;
+}
+
+.element textarea {
+  width: 90%;
+  resize: none;
+  color: rgb(74, 134, 232);
+}
+.element textarea:focus {
+  outline: 1px solid rgb(74, 134, 232);
+}
+
+.element .tag, 
+.element .content {
+  font-family: 'Source Code Pro', monospace;
+  color: rgb(74, 134, 232);
+  font-weight: bold;
+  line-height: 1.2em;
+  vertical-align: bottom;
+  padding-bottom: 4px;
+}
+
+.element .children {
+  margin-left: 40px;
+}
+
+.element.same-line .input {
+  margin: 0 10px;
+}
+.element.same-line .content {
+  flex: 1;
+  font-weight: normal;
+}
+
+.element.same-line.pre {
+  display: block;
+}
+.element.same-line.pre > * {
+  display: inline-block;
+}
+.element.same-line {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.element.same-line .input {
+  flex: 1;
+}
+
+
+/**
+ * form-only styles
+ */
+body.form-only,
+body.form-only .content {
+  padding: 0;
+  margin: 0;
+}
+body.form-only .instructions,
+body.form-only h1 {
+  display: none;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="storeLocator.css" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <div class="sticky">
+   <ul>
+      <li><a href="index.html">Comfty</a></li>
+      <li><a href="summerSale.html">Summer Sale</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="storeLocator.html">Store Locator</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+    </ul>
+  </div>
+  <div style="width: 100%";>
+	  <h1>Store Locator</h1>
+    <input type="text" placeholder="Search for a location">
+  </div>
+  <div class="flex-container">
+  <div class="column">
+    <ul class="store-location">
+      <li class="location-info"> 
+        <p>Dallas, TX</p>
+        <p>123 Main Street</p>
+        <p>(123) 456-7890</p>
+        <p>M-F 9am-10pm</p>
+        <p>Sa-Su 10am-9pm</p>
+      </li>
+      <li class="location-info">
+        <p>Los Angeles, CA</p>
+        <p>248 Main Road</p>
+        <p>(248) 456-7890</p>
+        <p>M-F 9am-10pm</p>
+        <p>Sa-Su 10am-8pm</p>
+      </li>
+      <li class="location-info">
+        <p>Chicago, IL</p>
+        <p>558 Main Drive</p>
+        <p>(558) 456-7890</p>
+        <p>M-F 9am-10pm</p>
+        <p>Sa-Su 10am-10pm</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h1>Map</h1>
+    <div id="googleMap" style="width:400px;height:300px;"></div>
+  </div>
+  </div>
+
+</body>
+
+<script>
+  function myMap() {
+    var uluru1 = {lat: 30.0795086, lng: -95.4209547};
+    var uluru2 = {lat: 33.9968047, lng: -118.4800904};
+    var uluru3 = {lat: 41.8339037, lng: -87.8720481,};
+    var mapProp= {
+      center:new google.maps.LatLng(35.47,-100.48), // should try centering this over the U.S. since that's where all the stores are
+      zoom:3,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker1 = new google.maps.Marker({position: uluru1, map: map});
+    var marker2 = new google.maps.Marker({position: uluru2, map: map});
+    var marker2 = new google.maps.Marker({position: uluru3, map: map});
+  }
+</script>
+
+<script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsB-0BzjlTyy6NXv1zqou2_xW7kvIsv7I&callback=myMap"></script>
+
+</html>

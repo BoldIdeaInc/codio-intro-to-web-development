@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+}
+
+.location-info {
+  border: 1px solid black;
+  width:90%
+}
+
+.location-info p {
+  margin: 0px;
+}
+
+.column {
+  width: 250px; 
+  float:left; 
+  height:100px; 
+  margin:10px
+}
+
+body {
+  background-color:grey ;
+  color:black;
+  font-family: 'MuseoModerno' cursive;
+  padding-top:60px
+}
+
+.store-location{
+  background-color:grey ;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%vw;
+  justify-content: center;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 102%;
+}

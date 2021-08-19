@@ -1,0 +1,33 @@
+<style>
+  iframe.about-my-mentor {
+    flex: 1;
+    width: 100%;
+    border: 0;
+  }
+  em.blue {
+    color: rgb(74, 134, 232);
+    font-weight: bold;
+  }
+</style>
+<script type="text/markdown">
+# About My Mentor: Code the page
+
+Now you're going to create an HTML page about your mentor:
+1. On the left is an HTML file with the basic *document structure*{.voc} already added for you.
+2. Click inside the *body*{.voc} element (between `<body>` and `</body>`).
+3. Add the elements as they are shown in *BLUE*{.blue} below (you don't need to type the questions. Only add the code in *BLUE*{.voc}).
+4. Click "next" at the bottom when you are finished.
+
+<iframe class="about-my-mentor" src=".guides/about-my-mentor/#formOnly"></iframe>
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    doc.addEventListener('loaded', function() {
+      var iframe = document.querySelector('iframe.about-my-mentor');
+      iframe.addEventListener('load', function() {
+        iframe.style.height = iframe.contentDocument.body.scrollHeight + 'px';
+        iframe.style.width = iframe.contentDocument.body.scrollWidth + 'px';
+      });	
+    });
+  });
+</script>
