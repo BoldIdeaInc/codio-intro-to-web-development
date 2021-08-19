@@ -18,9 +18,6 @@ jobs:
       - name: Cleanup
       # removes the following files/folders when publishing
         run: rm README.md
-        
-      - name: Clone tag-it activity
-        run: cd .guides && git clone 
 
       - name: Publish to Codio
         uses: codio/codio-assignment-publish-action@master
