@@ -247,25 +247,6 @@
    "teacherOnly": false,
    "closeTerminalSession": true,
    "learningObjectives": ""
-  },
-  {
-   "id": "73a0e3fa-bd5d-628f-f486-aad3f303ad2d",
-   "title": "Under Construction",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "html",
-   "content-file": ".guides/content/Under-Construction-73a0.html",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "closeTerminalSession": true,
-   "learningObjectives": ""
   }
  ],
  "theme": "light",
