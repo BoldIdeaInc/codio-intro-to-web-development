@@ -1,0 +1,33 @@
+<script type="text/markdown">
+# Add your steps as an ordered list
+
+HTML has two types of lists: *ordered*{.voc} and *unordered*{.voc}. 
+
+Since you’re making a step-by-step howto, order is important, so you should use the `<ol>` (ordered list) element. 
+
+Each item inside that list is an `<li>` (list item) element.
+
+```html {data-added-lines="9-15"}
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>How to make Texas Chili</h1>
+    <p>
+      This how-to will give you step-by-step instructions 
+      to help you win your next chili cook-off!
+    </p>
+    <ol>
+      <li>Cook first 4 ingredients in a large skillet</li>
+      <li>Stir until beef crumbles and is no longer pink</li>  
+      <li>Drain and place mixture in 5-quart slow cooker</li>   
+      <li>Stir in beans and remaining ingredients</li>
+      <li>Cook at HIGH 3 to 4 hours or at LOW 5 to 6 hours</li>
+    </ol>
+  </body>
+</html>
+```
+
+::: infobox warning
+Be sure to put your ordered list *after* the paragraph, but *inside* the body. Also, notice how all `<li>` elements are contained inside a single `<ol>` element.
+:::
+</script>

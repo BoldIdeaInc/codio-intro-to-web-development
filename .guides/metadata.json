@@ -239,9 +239,50 @@
     }
    ],
    "layout": "2-panels-tree",
-   "path": [],
+   "path": [
+    "index.html"
+   ],
    "type": "html",
    "content-file": ".guides/content/Start-a-new-HTML-page-6a34.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "631c75de-5322-1a6b-d130-92bceb3a6e9d",
+   "title": "Add a page heading and an intro paragraph",
+   "files": [],
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Add-a-page-heading-and-an-intro-paragraph-631c.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "71b31e10-0903-64cb-a5f0-5185e9935969",
+   "title": "Add your steps as an ordered list",
+   "files": [],
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Add-your-steps-as-an-ordered-list-71b3.html",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dcfa57b7-65fe-c008-98d3-69b4d6c6e446",
+   "title": "Preview your page",
+   "files": [],
+   "path": [],
+   "type": "html",
+   "content-file": ".guides/content/Preview-your-page-dcfa.html",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

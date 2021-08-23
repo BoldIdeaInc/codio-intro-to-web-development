@@ -103,6 +103,24 @@
        "title": "Start a new HTML page",
        "pageId": "6a345fd5-5ef8-bc77-d5b1-d5e7517e365b",
        "type": "page"
+      },
+      {
+       "id": "f4aeacd3-96d8-d79f-1df5-c830a7522fd4",
+       "title": "Add a page heading and an intro paragraph",
+       "pageId": "631c75de-5322-1a6b-d130-92bceb3a6e9d",
+       "type": "page"
+      },
+      {
+       "id": "44801e47-9cc7-0e56-cb53-ef6f8b88efa5",
+       "title": "Add your steps as an ordered list",
+       "pageId": "71b31e10-0903-64cb-a5f0-5185e9935969",
+       "type": "page"
+      },
+      {
+       "id": "23896ca6-ff6e-a417-e981-21308344466c",
+       "title": "Preview your page",
+       "pageId": "dcfa57b7-65fe-c008-98d3-69b4d6c6e446",
+       "type": "page"
       }
      ]
     }
