@@ -1613,7 +1613,14 @@
      "action": "open"
     }
    ],
-   "path": [],
+   "path": [
+    "images",
+    "index.html",
+    "style.css",
+    "table.html",
+    "about-us.html",
+    "contact-us.html"
+   ],
    "type": "html",
    "content-file": ".guides/content/Copy-your-nav-menu-into-the-other-pages-8f9c.html",
    "chapter": false,
@@ -1626,7 +1633,14 @@
    "id": "d180b0ef-d622-0572-9eb8-ca516f4cd88c",
    "title": "What else can you customize?",
    "files": [],
-   "path": [],
+   "path": [
+    "images",
+    "index.html",
+    "style.css",
+    "table.html",
+    "about-us.html",
+    "contact-us.html"
+   ],
    "type": "html",
    "content-file": ".guides/content/What-else-can-you-customize--d180.html",
    "chapter": false,
@@ -1639,7 +1653,14 @@
    "id": "cfc325ca-0ed3-40f2-c42d-b7a96cfe3ad8",
    "title": "Congrats!",
    "files": [],
-   "path": [],
+   "path": [
+    "images",
+    "index.html",
+    "style.css",
+    "table.html",
+    "about-us.html",
+    "contact-us.html"
+   ],
    "type": "html",
    "content-file": ".guides/content/Congrats--cfc3.html",
    "chapter": false,
