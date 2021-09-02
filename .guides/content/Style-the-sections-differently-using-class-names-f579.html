@@ -1,0 +1,36 @@
+<script type="text/markdown">
+# Style the sections differently using class names
+
+::: infobox .find
+CSS Reference: [Class Selectors][1]{.preview data-panel="2"}  
+HTML Reference: [Attributes][2]{.preview data-panel="2"}
+:::
+
+Any HTML element can be given an *attribute*{.voc} called `class`. We can use this to make two elements with the same name different from each other.
+
+1. Open the `index.html` file.
+2. Give each `<section>` a class name by adding an attribute inside the tag:
+   ```html
+   <section class="list-1">
+   ```
+   ```html
+   <section class="list-2">
+   ```
+{.steps}
+
+Now that each section is different, we can write two different rules using *class selectors*{.voc}. A class selector is just a period followed by the class name. So in this example, our selectors would be `.list-1` and `.list-2`.
+
+3. Add *two* new rules at the bottom of your stylesheet using your *class selectors*{.voc} (refere to your CSS reference for a reminder on how to write a rule)
+4. Remove the `border` declaration from the `section` rule above it.
+5. Add a new `border` declaration in each of the new class-name rules you added, using the two colors you selected in the previous step.
+6. ![](.guides/img/refresh-preview.png) Refresh the preview. Each list should now have a different border color:
+
+![](.guides/img/class-selector-colors.png)
+   
+Notice how the `section` selector matches both sections (shown by red arrows). Since we still want margin and padding on both sections, we can leave those styles in that rule. By giving each section its own class name, that allowed us to write individual CSS rules for different border colors.
+
+{.steps .continue}
+
+[1]: https://courses.boldidea.org/webdev/css-reference#selecting-elements
+[2]: https://courses.boldidea.org/webdev/html-reference#attributes
+</script>

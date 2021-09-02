@@ -1,0 +1,35 @@
+<script type="text/markdown">
+# Add a stylesheet
+
+::: infobox .find
+HTML Reference: [Document structure][1]{.preview data-panel="2"}, [Linking a stylesheet][2]{.preview data-panel="2"}
+:::
+
+Adding a stylesheet to your page takes two steps, creating a `.css` file, and "linking" the file in your `.html` page using the `<link>` element.
+
+The `<link>` element goes inside the `<head>` element, which is inside `<html>`, but *outside* the `<body>`.
+
+1. Create a new file called `style.css` (select *File -> New File*).
+2. In your `index.html` file, place an empty `<head>` element just before the opening body tag:
+   ```html {data-added-lines="3-4"}
+   <!DOCTYPE html>
+   <html>
+     <head>
+     </head>
+     <body>
+       <h1>Jack and Jill's Candy Shop</h1>
+   ```
+3. Inside the `<head>` element, add a `<link>` element. It doesn't need a closing tag, and has some special attributes. The most important is **href**, which points to your stylesheet:
+   ```html {data-added-lines="4"}
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <link href="style.css" rel="stylesheet" type="text/css">
+     </head>
+     <body>
+       <h1>Jack and Jill's Candy Shop</h1>
+   ```
+
+[1]: https://courses.boldidea.org/webdev/html-reference/#document
+[2]: https://courses.boldidea.org/webdev/html-reference/#stylesheet
+</script>

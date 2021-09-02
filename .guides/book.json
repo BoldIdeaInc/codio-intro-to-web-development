@@ -93,33 +93,344 @@
      "type": "section",
      "children": [
       {
-       "id": "1c3db0de-a3b8-3a93-a643-3f1e4d309b25",
        "title": "Make a How-To Page",
-       "pageId": "abc9e166-c0a0-c0c9-1509-ed76f33eb795",
-       "type": "page"
+       "id": "1c3db0de-a3b8-3a93-a643-3f1e4d309b25",
+       "type": "page",
+       "pageId": "abc9e166-c0a0-c0c9-1509-ed76f33eb795"
       },
       {
-       "id": "ef64d8ad-1542-461f-f16c-43fdb70aac18",
        "title": "Start a new HTML page",
-       "pageId": "6a345fd5-5ef8-bc77-d5b1-d5e7517e365b",
-       "type": "page"
+       "id": "ef64d8ad-1542-461f-f16c-43fdb70aac18",
+       "type": "page",
+       "pageId": "6a345fd5-5ef8-bc77-d5b1-d5e7517e365b"
       },
       {
+       "title": "Add a page heading",
+       "id": "5e81e2eb-a752-35e0-20f7-103133250a9d",
+       "type": "page",
+       "pageId": "5e81e2eb-a752-35e0-20f7-103133250a9d"
+      },
+      {
+       "title": "Add a paragraph",
        "id": "f4aeacd3-96d8-d79f-1df5-c830a7522fd4",
-       "title": "Add a page heading and an intro paragraph",
-       "pageId": "631c75de-5322-1a6b-d130-92bceb3a6e9d",
-       "type": "page"
+       "type": "page",
+       "pageId": "631c75de-5322-1a6b-d130-92bceb3a6e9d"
       },
       {
-       "id": "44801e47-9cc7-0e56-cb53-ef6f8b88efa5",
        "title": "Add your steps as an ordered list",
-       "pageId": "71b31e10-0903-64cb-a5f0-5185e9935969",
+       "id": "44801e47-9cc7-0e56-cb53-ef6f8b88efa5",
+       "type": "page",
+       "pageId": "71b31e10-0903-64cb-a5f0-5185e9935969"
+      },
+      {
+       "title": "Preview your page",
+       "id": "23896ca6-ff6e-a417-e981-21308344466c",
+       "type": "page",
+       "pageId": "dcfa57b7-65fe-c008-98d3-69b4d6c6e446"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Guided Project",
+   "id": "bcd21140-d992-d257-fdc2-eb85d99c97ba",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Guided Project Intro",
+     "id": "18cfa17a-50d8-208d-2b18-1418e475e902",
+     "type": "page",
+     "pageId": "846bbf91-b477-e080-d033-054cea17defd"
+    },
+    {
+     "title": "Part 1",
+     "id": "21e4e7b7-d037-7884-e4aa-0c00bdd226ad",
+     "type": "section",
+     "children": [
+      {
+       "title": "Choose your client",
+       "id": "50a14c38-202c-dd84-31b5-d695c4393ce4",
+       "type": "page",
+       "pageId": "80d1636d-7b39-01cb-1c84-eed2c43a4677"
+      },
+      {
+       "title": "Create the home page",
+       "id": "81fe285b-f73e-e670-9bda-da78e96e2a1b",
+       "type": "page",
+       "pageId": "cb1a5492-10e1-1eef-70ef-3dd0e696c262"
+      },
+      {
+       "title": "Viewing the client email",
+       "id": "824b4f29-98c3-9016-04e3-0e207f92b434",
+       "type": "page",
+       "pageId": "ca5db0cd-3254-86be-ecf2-85670841888a"
+      },
+      {
+       "title": "Moving tabs",
+       "id": "114487cf-3ae4-057c-7909-f583240697c3",
+       "type": "page",
+       "pageId": "029c9c0a-8295-55f2-0a73-6f5ac8927e30"
+      },
+      {
+       "title": "Using the HTML and CSS reference",
+       "id": "d4995fdd-8f0c-b15c-62a9-db77d1a27653",
+       "type": "page",
+       "pageId": "9c19614d-5334-f5ba-a4b4-2bd1c97202e2"
+      },
+      {
+       "title": "Add the company name",
+       "id": "dc14214e-ce47-e58e-f9b6-c01910af3d7b",
+       "type": "page",
+       "pageId": "9921ec47-3b76-c15e-c258-f7e78896e115"
+      },
+      {
+       "title": "Add the company description",
+       "id": "d1c741db-e3ee-3f4f-51c3-32f2747e2ce9",
+       "type": "page",
+       "pageId": "dd84d432-264e-9f8b-cda8-3d3ddb33377c"
+      },
+      {
+       "title": "Upload the photo",
+       "id": "683ae4d4-fa65-e025-ae23-5497f3bf31b9",
+       "type": "page",
+       "pageId": "0d0f7619-9aaa-52b4-aa1a-cad8f799d9a0"
+      },
+      {
+       "title": "Add the photo to the page",
+       "id": "c4a98a11-df19-e3da-5c71-7ac0f565ed5d",
+       "type": "page",
+       "pageId": "1d4ea924-bdaa-4e41-bf9e-da6278d36579"
+      },
+      {
+       "title": "HTML lists",
+       "id": "b5f70184-04c2-b3da-2240-e2bcba117f36",
+       "type": "page",
+       "pageId": "8f9a735b-9a2d-7f98-e6a5-0a18620a3ac5"
+      },
+      {
+       "title": "Add the lists",
+       "id": "a7cdefa9-4a8e-3ece-17ed-db671cb909fb",
+       "type": "page",
+       "pageId": "cedeb782-07dd-40d3-dfb0-099477d64d14"
+      },
+      {
+       "title": "What is CSS?",
+       "id": "425c8f06-8dcd-8f1a-1232-e7fad650b70f",
+       "type": "page",
+       "pageId": "fa178a34-b61a-0998-fe00-e1dc10f56201"
+      },
+      {
+       "title": "How to write a CSS rule",
+       "id": "38299457-07b8-5614-539b-836d22231f78",
+       "type": "page",
+       "pageId": "451dd61f-5dbd-0508-b87c-0658e4df6e0a"
+      },
+      {
+       "title": "Add a stylesheet",
+       "id": "8c1d5684-0eb1-56f7-3741-d9108eefcaef",
+       "type": "page",
+       "pageId": "2e55c756-d91e-e469-00f9-046296a4df3d"
+      },
+      {
+       "title": "Change the heading style",
+       "id": "1a67cd42-254e-13e4-bbe7-68a525e1ba22",
+       "type": "page",
+       "pageId": "cf360bea-6ee4-41a7-c653-d6e2dfdec88a"
+      }
+     ]
+    },
+    {
+     "title": "Part 2",
+     "id": "04ced8fd-0ea9-7869-e940-8b3f851319b4",
+     "type": "section",
+     "children": [
+      {
+       "title": "Client email",
+       "id": "71d888ab-2b43-a7dd-3e4c-932a1d797462",
+       "type": "page",
+       "pageId": "d61e70fd-1124-7db7-197b-f082f72af374"
+      },
+      {
+       "title": "Add the list headings",
+       "id": "46812502-1359-1728-c686-cc39e412c080",
+       "type": "page",
+       "pageId": "8530607a-f799-3f86-d17a-79991ad94b1d"
+      },
+      {
+       "title": "Put the lists and headings in sections",
+       "id": "bad0e396-73c2-f8f7-4a6c-8e0b636297c9",
+       "type": "page",
+       "pageId": "5725b978-9c9d-e3b6-a4ac-07bb60170fc0"
+      },
+      {
+       "id": "b34a0936-9d58-fb98-51e0-b34e05d40f85",
+       "title": "Quick tip: Beautify your Code",
+       "pageId": "614c8023-67f0-549e-fc0d-a1297ecc4235",
        "type": "page"
       },
       {
-       "id": "23896ca6-ff6e-a417-e981-21308344466c",
-       "title": "Preview your page",
-       "pageId": "dcfa57b7-65fe-c008-98d3-69b4d6c6e446",
+       "title": "Add a border around the sections",
+       "id": "ea4f5648-a840-e925-81f6-7447d256035e",
+       "type": "page",
+       "pageId": "59391578-59c9-6659-1e38-2ab12f6f69dc"
+      },
+      {
+       "title": "Space things out",
+       "id": "001c480a-d03b-e533-e04e-b96f803d52ae",
+       "type": "page",
+       "pageId": "fa3cdbb8-88dc-96a7-fb4a-bfaa59d0d0af"
+      },
+      {
+       "title": "Create a new page for the table",
+       "id": "8dac16ac-2539-21a6-da61-e6789886d84c",
+       "type": "page",
+       "pageId": "95765704-f57d-5d90-c73f-3b11837432f8"
+      },
+      {
+       "title": "Build the table",
+       "id": "7c3b50b4-3c53-91ff-8433-725006876475",
+       "type": "page",
+       "pageId": "2f6ab368-1244-0976-3078-5e963c05bc43"
+      }
+     ]
+    },
+    {
+     "title": "Part 3",
+     "id": "d0531edc-85e2-8cd3-18b0-6e16577c2f45",
+     "type": "section",
+     "children": [
+      {
+       "title": "Client email",
+       "id": "fe4aa488-0b4c-4179-c53f-9a7c4960a038",
+       "type": "page",
+       "pageId": "cc1131d9-5eb6-ad1e-b84d-1f55966a6282"
+      },
+      {
+       "title": "Styling individual elements",
+       "id": "f7ea1a0c-9e20-7b03-e70f-748d8b5156c5",
+       "type": "page",
+       "pageId": "cb4fb31f-2ce6-88cd-377e-202daf662f18"
+      },
+      {
+       "title": "Learn how selectors work",
+       "id": "372782c6-007f-a9d8-72f8-a1683866a71d",
+       "type": "page",
+       "pageId": "8c21ac65-fc20-8f7e-e131-7ca513bb17d6"
+      },
+      {
+       "title": "Style the sections differently using class names",
+       "id": "df880431-9fe3-5b81-eec3-158db6cc8c2f",
+       "type": "page",
+       "pageId": "f57936c5-d5f0-a7d5-6b7a-e7afa0e9469e"
+      },
+      {
+       "title": "Style the section headings",
+       "id": "76da80a3-bec2-015a-f6ac-cd574d1d09c6",
+       "type": "page",
+       "pageId": "def8c3eb-f67d-71ef-96ac-976b712e828d"
+      },
+      {
+       "title": "Change the layout",
+       "id": "46135ffe-b400-50e8-8532-af71a06af90d",
+       "type": "page",
+       "pageId": "96886859-e20c-1ab3-a927-13ac5f559eeb"
+      },
+      {
+       "title": "Add a Hyperlink",
+       "id": "a283fa45-da6e-1872-705c-5cdd2ef43ddc",
+       "type": "page",
+       "pageId": "e945ac5d-6b2a-e40c-6b38-6c7820b3fb57"
+      },
+      {
+       "title": "Create the \"About Us\" page",
+       "id": "b2d55972-2645-b318-7b2e-ffab4e6597d2",
+       "type": "page",
+       "pageId": "83acc7f1-11dc-7ab7-d3f1-b74f50c4ea1d"
+      },
+      {
+       "title": "Add the slideshow using JavaScript",
+       "id": "c7e8332d-91f0-d46e-4f19-572497d3d07c",
+       "type": "page",
+       "pageId": "b2e6f6ac-946c-f673-3f64-1ac94b836cc8"
+      }
+     ]
+    },
+    {
+     "title": "Part 4",
+     "id": "5f5bdd15-b421-ac58-98e8-693a81161126",
+     "type": "section",
+     "children": [
+      {
+       "title": "Client Email",
+       "id": "ed309d33-710e-8b2e-de52-d483f034df52",
+       "type": "page",
+       "pageId": "18e06ca0-aa37-6284-e2ee-1459f62f0d12"
+      },
+      {
+       "title": "Emphasize the company name",
+       "id": "7b1244f2-8ad3-22d9-8dae-ee7f9f84bf9e",
+       "type": "page",
+       "pageId": "014a7412-3186-529b-8508-898fb582a374"
+      },
+      {
+       "title": "Finding help online",
+       "id": "bafc4333-ebd8-0af2-6a6c-9616dbaee521",
+       "type": "page",
+       "pageId": "260ad963-b8e2-c747-4732-b5faa0c97752"
+      },
+      {
+       "title": "Add the \"Contact Us\" page",
+       "id": "f6443987-4ecd-260f-745f-a941280d656b",
+       "type": "page",
+       "pageId": "2436e8fc-e734-1b8b-dcc9-35fedc066b98"
+      },
+      {
+       "title": "Embed a Google Map",
+       "id": "ede2e4c9-babd-8fa5-01c3-52dc705c0f64",
+       "type": "page",
+       "pageId": "c3cee8d3-231d-6abd-ce4c-5c76d54ad936"
+      },
+      {
+       "title": "Navigation Menus",
+       "id": "6ee0e0e0-0afc-8a59-7161-c2cf559f0bae",
+       "type": "page",
+       "pageId": "7d668a34-0104-c141-8482-f4d0cfb65e6f"
+      },
+      {
+       "title": "Build the navigation HTML",
+       "id": "c18c88f6-7d83-67a5-595b-fd83f2e7065f",
+       "type": "page",
+       "pageId": "2104899d-47c6-a35d-7719-1156d966f9e2"
+      },
+      {
+       "title": "Change the nav bar into a flexbox container",
+       "id": "2aecd64d-9a8d-9cd1-90cf-63bb854b4485",
+       "type": "page",
+       "pageId": "9526ea4c-8243-56b4-e7c9-86e9785e8ea6"
+      },
+      {
+       "title": "Make the links look more like buttons",
+       "id": "9ba102fa-c535-db84-4e4c-1de6f382a79d",
+       "type": "page",
+       "pageId": "a0c2c3a2-a71d-0e63-c7b5-fc26e7a418ad"
+      },
+      {
+       "id": "a59584bc-2eff-e878-12e1-54b22824f734",
+       "title": "Copy your nav menu into the other pages",
+       "pageId": "8f9c75ff-bbe5-e6db-dbde-ca54c54f85aa",
+       "type": "page"
+      },
+      {
+       "id": "c26ae70f-ab2e-babc-5aaf-b2f18e4ab0f4",
+       "title": "What else can you customize?",
+       "pageId": "d180b0ef-d622-0572-9eb8-ca516f4cd88c",
+       "type": "page"
+      },
+      {
+       "id": "53b1f426-0650-585f-aabf-dbdb4fb69ef3",
+       "title": "Congrats!",
+       "pageId": "cfc325ca-0ed3-40f2-c42d-b7a96cfe3ad8",
        "type": "page"
       }
      ]

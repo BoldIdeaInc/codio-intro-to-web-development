@@ -1,0 +1,35 @@
+<script type="text/markdown">
+# Space things out
+
+::: infobox .find
+CSS Reference: [Box Model][1]{.preview data-panel="2"}
+:::
+
+In visual design, *white space*{.voc} is very important. Without it, things look cluttered and are difficult to read. Which of the two layouts below looks better to you?
+
+![](.guides/img/whitespace.png)
+
+![](.guides/img/box-model.png){.float-right .m5 .s6}
+In the above example on the right, there is spacing on the outside of the border as well as spacing on the inside.
+
+Spacing on the outside is called *margin*{.voc}, while spacing on the inside is called *padding*{.voc}. This is defined by the *CSS Box Model*{.voc}.
+
+## Update your CSS
+1. Read about the [Box Model][1]{.preview data-panel="2"} in your CSS Reference.
+2. Click the "Run Simulator" button and experiment with box model properties online.
+3. In your `style.css` file, inside your `section` rule, add `margin` and `padding` declarations. Try different settings to see what you like best!
+   ::: infobox
+   **Remember**: when specifying sizes for things like margin and padding, use a CSS unit (such as `10px`).
+   
+   You can read more about CSS units in the [CSS Reference][2]{.preview data-panel="2"}.
+   :::
+4. ![](.guides/img/refresh-preview.png) Refresh your preview. You should now see more spacing in and around your list boxes:
+
+   ![](.guides/img/lists-margin-and-padding.png)
+   
+   Feel free to adjust the margin and padding to your liking!
+   
+
+[1]: https://courses.boldidea.org/webdev/css-reference/#box-model
+[2]: https://courses.boldidea.org/webdev/css-reference/#length-and-size
+</script>

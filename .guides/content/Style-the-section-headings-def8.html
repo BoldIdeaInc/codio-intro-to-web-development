@@ -1,0 +1,37 @@
+<script type="text/markdown">
+# Style the section headings
+
+::: infobox
+CSS Reference: [Combinators][1]{.preview data-panel="2"}  
+HTML Reference: [Nesting Elements][2]{.preview data-panel="2"} *(descendent)*
+:::
+
+The next requirement is to make each list heading the same color as its border.
+
+1. Write a new style rule that selects `<h2>` and changes the color:  
+   *Note: this example uses orange -- use one of your colors you chose earlier!*
+   ```css
+   h2 {
+     color: orange;
+   }
+   ```
+2. ![](.guides/img/refresh-preview.png) Refresh your preview. Notice how *both* list headings have the same color. We want them to be different!
+3. You *could* give each `<h2>` element its own class name like we did in the previous step, but there's an easier way using *combinators*{.voc}.
+
+   Change the element selector by *combining* it with the class selector:
+   ```css {data-removed-lines="1" data-added-lines="2" data-caption="Select the h2 element inside the .list-1 element"}
+   h2 {
+   .list-1 h2 {
+     color: darkslateblue;
+   }
+   ```
+   CSS *combinators*{.voc} allow you to match elements that are a *descendent* of another. In our document, the `<h2>` is a *descendent* of `<section>`.
+4. Write a second rule using a combinator for your other list, so that each list has its own specific color:
+
+   ![](.guides/img/combinators.png)
+5. ![](.guides/img/refresh-preview.png) Refresh your preview, and make sure each section heading has a color that matches the section border.
+{.steps}
+
+[1]: https://courses.boldidea.org/webdev/css-reference/#selecting-elements
+[2]: https://courses.boldidea.org/webdev/html-reference/#nesting
+</script>

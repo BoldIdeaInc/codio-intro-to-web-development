@@ -1,0 +1,42 @@
+<style>
+  .api-key {
+    border: 1px solid black;
+    border-radius: 2px;
+    display: block;
+    width: 400px;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  output {
+    font-style: italic;
+    margin: 0 .5em .5em .5em;
+  }
+</style>
+<script type="text/markdown">
+# Embed a Google Map
+
+Adding an interactive map is actually really easy because Google has done most of the difficult coding for us. All we have to do is use a "snippet" of code to have a fully-functional Google map right on our website.
+
+## How to embed a Google Map on your webpage
+
+1. Click [here](https://developers.google.com/maps/documentation/embed/map-generator){target="_blank"} to go to the Google Maps embed API page (you can switch tabs to come back here at look at the instructions)
+2. Scroll down to "Generating an iframe" section of the page.
+3. Under "I want to..." Enter the company's address from their email in the box under "highlight a place or an address" and click "looks good"
+4. Highlight the API key in the box below and copy and paste it into the "Enter your API key" box and click "done".  
+   <input readonly="readonly" class="api-key" type="text" value="AIzaSyCema48hs-LMIJCk_VZUQE994IsVQOidA8">
+   <output></output>
+5. Copy and paste the generated `<iframe>` HTML element into your your code under the "Our Location" heading.
+6. ![](.guides/img/refresh-preview.png) Refresh the preview. You should now see a google map on your page!
+7. Make sure the preview looks like the wireframe your client provided. The two sections should be side-by-side.
+{.steps}
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    var $ = document.querySelector.bind(document);
+    $('input.api-key').addEventListener('focus', function() {
+      this.select();
+      document.execCommand('copy');
+      $('output').textContent = 'The API key has been copied to your clipboard';
+    });
+  });
+</script>

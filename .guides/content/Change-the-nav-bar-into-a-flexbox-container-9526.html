@@ -1,0 +1,18 @@
+<script type="text/markdown">
+# Change the nav bar into a flexbox container
+
+::: infobox .find
+CSS Reference: [Flexbox layout][1]{.preview data-panel="2"}  
+CSS Reference: [Combinators][2]{.preview data-panel="2"}
+:::
+
+1. In your `style.css` file, create an empty CSS rule that matches the `<nav>` element, and set the `display` property to `flex`.
+2. Then, create another empty CSS rule for all `<a>` elements *inside* the `<nav>` element using a **combinator**{.voc} selector.
+3. Within the rule for the `<a>` elements, set the `flex` property to `1`. This will make the links grow take up equal space in the navigation bar.
+{.steps}
+4. ![](.guides/img/refresh-preview.png) Refresh your preview. Your nav links should now "flex" to fill all the available space inside the nav bar:
+   ![](.guides/img/nav-flex-1.png)
+   
+[1]: https://courses.boldidea.org/webdev/css-reference/#flexbox
+[2]: https://courses.boldidea.org/webdev/css-reference/#selecting-elements
+</script>

@@ -1,0 +1,55 @@
+<script type="text/markdown">
+# Change the Layout
+
+:::infobox .find
+CSS Reference: [Flexbox layout][1]{.preview data-panel="2"}  
+HTML Reference: [The &lt;div&gt; element][2]{.preview data-panel="2"}
+:::
+
+Your client now wants the list to be side-by-side, like so:
+
+![](.guides/img/styled-lists-example.png)
+
+You can do this using a technique called *flexbox*{.voc}, which is short for "flexible box layout". Any container element can be a *flexbox container*{.voc}, which means everything inside it follows flexbox layout rules.
+
+1. Read the [Flexbox layout][1]{.preview data-panel="2"} section in your CSS Reference to learn how to make an element act as a *flexbox container*{.voc}
+{.steps}
+
+## Introducing the `<div>` element
+
+We’ll use a `<div>` element for our flexbox *container*{.voc}. Unlike sectioning elements, `div` does not inherently represent anything. The purpose of a `div` element is to group content so it can be easily styled using the `class` attribute.
+
+Go ahead and “wrap” both sections inside a new `<div>` element:
+
+2. In your `index.html` file, insert an opening `<div>` tag just above your first `<section>` tag. *Note: the IDE may auto-complete the closing `</div>` tag. If it does, just erase it until the next step.*
+3. Insert a closing `</div>` tag just below the last closing `</section>` tag
+4. Highlight all lines of code between the div element and press the tab key on your keyboard. This will indent the code so it's easier to tell it's inside the div.
+5. Add a class attribute to the `<div>` you just created, and give it a name: 
+   ```html
+   <div class="side-by-side">
+   ```
+   Use a class name that makes it obvious what this div element's job is, eg "side-by-side".
+6. Add a CSS rule for that div that selects `<div class="side-by-side">` and enables flexbox mode:
+   ```css
+   .side-by-side {
+     display: flex;
+   }
+   ```
+   The `display` property changes the layout behavior of an element or its children. (see your CSS reference for more info).
+7. ![](.guides/img/refresh-preview.png) Refresh your preview. The lists should now appear side-by-side.
+8. In your existing CSS rule for `section`, add `flex-grow: 1` to make the sections evenly fill up all their available space within the flex container:
+   ```css {data-added-lines="2"}
+   section {
+     flex-grow: 1;
+     margin: 20px;
+     padding: 20px;
+   }
+   ```
+9. ![](.guides/img/refresh-preview.png) Refresh the preview. If your lists don't appear side-by-side at this point, go back and check to make sure you followed the instructions correctly. Make sure you don't have any tags you forgot to close.
+{.steps .continue}
+
+
+
+[1]: https://courses.boldidea.org/webdev/css-reference/#flexbox
+[2]: https://courses.boldidea.org/webdev/html-reference/#div
+</script>

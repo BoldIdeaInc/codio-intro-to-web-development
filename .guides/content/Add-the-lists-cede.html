@@ -1,0 +1,45 @@
+<script type="text/markdown">
+# Add the lists to your page
+
+::: infobox .find
+HTML Reference: [Lists](https://courses.boldidea.org/webdev/html-reference/#lists){.preview data-panel="2"}
+:::
+
+Your client gave you two types of lists. In one list, the order doesn’t really matter. But in the other list, the order is important (for example, in a “Top 10” list).
+
+## Add the unordered list
+1. Look at your [client email][1]{.preview data-panel="2"} and look at the list they gave you where the order doesn't matter.
+2. Add the *unordered list*{.voc} at the end of the body (after the pargraph, but before the `</body>` tag):
+   ```html {data-added-lines="4-10" data-header="Example list (see your client email for actual content)"}
+       <p>
+         This is another paragrah
+       </p>
+ 
+       <ul>
+         <li>Gummy candy</li>
+         <li>Suckers</li>
+         <li>Chocolates</li>
+       </ul>
+
+     </body>
+   </html>
+   ```
+3. ![](.guides/img/refresh-preview.png) Refresh the preview. You should now see your list with bullet items:
+   ![](.guides/img/unordered-list-example.png)
+{.steps}
+
+## Add the ordered list
+4. Look at your client email and find the list they gave you where they have a specific order.
+5. Do the same thing as you did with the unordered list, but this time add the *ordered list*{.voc} element. Put the ordered list just after the closing tag of your unordered list.
+   ::: infobox
+   Can't remember how to make an *ordered list*{.voc}? Go back one page to see how!
+   :::
+6. ![](.guides/img/refresh-preview.png) Refresh the preview. You should now see your list with bullet items:
+{.steps .continue}
+   ![](.guides/img/ordered-list-example.png)
+
+
+Great work! Next we're going to learn how to add some **style** to our page.
+
+[1]: https://courses.boldidea.org/webdev/companies/email.html#part1
+</script>

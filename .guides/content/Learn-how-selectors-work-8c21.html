@@ -1,0 +1,28 @@
+<script type="text/markdown">
+# How selectors work
+
+The client wants to change the border colors. In *Part 2*, you put your list headings inside `<section>` elements, allowing you to put a border around both.
+
+You used `section` for your CSS selector, which selects all `<section>` elements on a page and applies the styling rule to it. The diagram below shows how this works:
+
+![](.guides/img/how-selectors-work.png)
+
+:::infobox 
+The purpose of a *selector*{.voc} (circled above) is to "select" one or more elements in your document and allow you to style them with one CSS rule. 
+:::
+
+## Try it out!
+1. Try changing the border color in your style rule:
+   ```css {data-em-lines="2"}
+   section {
+     border: 4px solid orange;
+     margin: 10px;
+     paddnig: 10px;
+   }
+   ```
+   See how both sections have the same color? 
+   
+   While it’s useful to just write one rule to style multiple elements, we want a different border color for each section. If our elements were different, we could write two rules with different selectors. 
+   
+   How do we do that? Click *Next* to find out!
+</script>

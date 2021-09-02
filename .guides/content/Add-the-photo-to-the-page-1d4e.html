@@ -1,0 +1,30 @@
+<script type="text/markdown">
+# Add the photo to the page
+
+::: infobox .find
+HTML Reference: [Images](https://courses.boldidea.org/webdev/html-reference/#images)
+:::
+
+The `<img>` element embeds an image into the page. It has an *attribute*{.voc} called `"src"` that tells the browser where to find the image so that it can display it on the page.
+
+1. Now that our image is uploaded, we can add the `<img>` element to our page, just below the main heading:
+   ```html {data-added-lines="5"}
+   <!DOCTYPE html>
+   <html>
+     <body>
+       <h1>Jack and Jill’s Candy Shop</h1>
+       <img src="images/store.jpg">
+       <p>
+          Welcome to our website! Our candy is the best in town.
+   ```
+   ::: infobox .important
+   Be sure to use the name of the file you uploaded, and make sure the file is inside the `images` folder.
+   :::
+
+2. ![](.guides/img/refresh-preview.png) Preview your page. Notice how the image is way too big! Let's add a `width` attribute to the `<img>` element to make it smaller:
+   ```html
+       <img src="images/store.jpg" width="400">
+   ```
+   
+3. ![](.guides/img/refresh-preview.png) Refresh the preview again. The image should now be smaller.
+</script>

@@ -1,0 +1,51 @@
+<style>
+  .narrated-code .narration p {
+    margin: 1em 0;
+  }
+  .narrated-code .narration p:first-child {
+    margin-top: 0;
+  }
+</style>
+<script type="text/markdown">
+# HTML Lists
+
+You can create two types of lists in HTML: *ordered*{.voc} and *unordered*{.voc}.
+
+- Use the `<ul>` (*un*ordered list) element when the order of items doesn’t matter.
+- Use the `<ol>` (ordered list) element when the order of items is important.
+- Use the `<li>` (list item) element to define each list item. Be sure to put the list items inside your  or  element.
+
+
+:::: div .narrated-code .result .outlined
+```html
+<p>Apollo 11 astronauts</p>
+<ul>
+  <li>Neil Armstrong</li>
+  <li>Buzz Aldrin</li>
+  <li>Michael Collins</li>
+</ul>
+
+<p>Inner planets (by distance from sun):</p>
+<ul>
+  <li>Murcury</li>
+  <li>Venus</li>
+  <li>Earth</li>
+  <li>Mars</li>
+</ul>
+```
+::: div .narration
+Apollo 11 astronauts:
+- Neil Armstrong
+- Buzz Aldrin
+- Michael Collins
+
+Inner planets, by distance from sun:
+1. Murcury
+2. Venus
+3. Earth
+4. Mars
+:::
+::::
+
+By default, the browser uses **bullets** for unordered lists, and **numbers** for ordered lists. It also automatically indents list items. You can change this behavior using CSS.
+</script>

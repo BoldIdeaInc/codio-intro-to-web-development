@@ -1,0 +1,36 @@
+<script type="text/markdown">
+# Put the lists and headings in sections
+
+::: infobox .find
+HTML Reference: [Sectioning](https://courses.boldidea.org/webdev/html-reference/#sectioning)
+:::
+
+![](.guides/img/sectioned-lists.png){.float-right}
+Your client has asked you to put a *border*{.voc} around each list. The border should go around the list *and* its heading, like the example on the right.
+
+You will need to write a *CSS rule*{.voc} to add a border. But, what element can we put a border on? The heading and the list are not contained inside their own element, so we need to put them inside a new one.
+
+```html
+<section>
+  <h2>Top 5 Movies</h2>
+  <ol>
+    <li>Toy Story 4</li>
+    <li>Detective Pikachu</li>
+    <li>Spiderman</li>
+    <li>The Lion King</li>
+    <li>How to Train a Dragon<li>
+  </ol>
+</section>
+
+<section>
+  <h2>Cat Breeds</h2>
+  <ul>
+    <li>Tabby</li>
+    <li>Persian</li>
+    <li>Maine Coon</li>
+    <li>Shorthair</li>
+    <li>Siamese</li>
+  </ul>
+</section>
+```
+</script>

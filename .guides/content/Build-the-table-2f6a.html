@@ -1,0 +1,39 @@
+<script type="text/markdown">
+# Build the table
+
+::: infobox .find
+HTML Reference: [Tables][1]{.preview data-panel="2"}
+:::
+
+Your client gave you a list of items to show on this new page, and each item has several things in common. This type of information is best displayed in a *table*{.voc}, which has *rows* and *columns*.
+
+1. Review the section on [Tables][1]{.preview data-panel="2"} in the HTML Reference to learn how to use tables and how to build them.
+2. Open the client email, look at the list of information they gave you, and decide what columns your table should have.   
+   [Open Email][2]{.btn .preview data-panel="2"}
+3. Upload the images from the client email to the `images` folder in your IDE (each row of your table will have a column with an image inside it).
+3. Start your table by adding an empty `<table>` element. 
+4. Place an empty row inside the table using the `<tr>` (table row) element. 
+5. Your first row is going to be your column headers. Header cells use the `<th>` element for each column header. Add a `<th>` element for every column inside the `<tr>`.
+6. ![](.guides/img/refresh-preview.png) Refresh the preview panel. You should now see your table headers in a table format.
+7. Next, add the first row with the data your client gave you. This looks just like the header row, but instead of `<th>` we're going to use `<td>` (table data) for each cell.
+   ::: infobox .important
+   Make sure your `<td>` elements are *inside* the `<tr>` (table row) element.
+   :::
+8. ![](.guides/img/refresh-preview.png) Refresh the preview. You should now see the first row of data underneath the column headers.
+   ::: infobox .warning
+   For the image column, be sure to use the `<img>` element with the `width` attribute so the image doesn't take up too much space! For example, use `<img width="100">` (use whatever size you think looks best!).
+   :::
+9. Now add the rest of the rows. Here's a quick tip: **use copy-and-paste** to make things faster! 
+   - Highlight the HTML for the first data row (including the `<tr>` and all `<td>` cells)
+   - Press [[Ctrl+C]] to copy
+   - Place the cursor on the next line, and press [[Ctrl+V]] to paste.
+   - Then just change the content inside each `<td>` element that you pasted. This saves a lot of typing!
+
+![](.guides/img/refresh-preview.png) Refresh the preview to make sure everything looks good!
+{.steps}
+
+*Congrats! You finished part 2!*
+
+[1]: https://courses.boldidea.org/webdev/html-reference/#tables
+[2]: https://courses.boldidea.org/webdev/companies/email.html#part2
+</script>

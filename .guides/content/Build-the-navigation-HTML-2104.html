@@ -1,0 +1,30 @@
+<script type="text/markdown">
+# Build the navigation HTML
+
+::: infobox .find
+HTML Reference: [Sectioning][1]{.preview data-panel="2"}
+:::
+
+The `<nav>` element serves as a container for our navigation items, and tells the browser that the elements inside it are intended for navigation.
+
+1. On your home page (`index.html`), put a `<nav>` element at the very top of the page, just under the opening `<body>` tag.
+   ::: infobox
+   Devices called *screen readers* look for `<nav>` elements to help people with a vision impairment such as blindness to navigate websites. It's always a good idea to make your website accessible, even to those who can't see it.
+   :::
+2. Inside your `<nav>` element, add hyperlinks for each page using `<a>` elements.
+
+   *Below is an example -- you'll need to adjust the links to match your site:*
+   ```html
+   <nav>
+     <a href="index.html">Home</a>
+     <a href="products.html">Our Products</a>
+     <a href="about-us.html">About Us</a>
+     <a href="contact-us.html">Contact Us</a>
+   </nav>
+   ```
+3. ![](.guides/img/refresh-preview.png) Refresh your preview. Your navigation will look something like this:
+
+   ![](.guides/img/nav-menu-unstyled.png)
+
+[1]: https://courses.boldidea.org/webdev/html-reference/#sectioning
+</script>

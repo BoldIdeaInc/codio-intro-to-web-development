@@ -1,0 +1,34 @@
+<script type="text/markdown">
+# Add the "Contact Us" page
+
+Your client has given you instructions on how to make the "Contact Us" page. Open the wireframe image they gave you to see what they want it to look like.
+
+## Create a new page and add the sections
+
+1. Create a new file called `contact-us.html`.
+2. Create the base document structure like before, with `<!doctype html>`, `<html>`, `<head>`, `<link>`, and `<body>`.
+   ::: infobox
+   **Pro tip:** A really easy way to do this is copy-and-paste an existing page, and remove everything inside the `<body>` element.
+   :::
+2. Next, add a heading using an `<h1>` element. Type "Contact Us" inside the `<h1>`.
+3.  ![](.guides/img/refresh-preview.png) Refresh the `contact-us.html` preview and make sure the heading has the same style as your other pages. If it doesn't, check your `<link>` element.
+{.steps}
+
+As you can see from your client's email, they want two sections side-by-side. You've done something similar on your home page.
+
+3.  Add a `<div>` element to act as a container for both sections, and give it the same class name you used for your homepage lists (`class="side-by-side"`).
+4.  Add two `<section>` elements inside the container.
+5.  Within each section, place the appropriate `<h2>` heading (refer to the wireframe photo your client gave you).
+6.  ![](.guides/img/refresh-preview.png) Refresh the `contact-us.html` preview and make sure the two sections are side-by-side.
+7.  In the "contact info" section, use three `<p>` elements. One for the name, one for the email, and one for the location address.
+8.  In the address, put a **line break** (`<br>`) after the street name, so the street name is on one line, and the city, state, and zip are on the next.
+9.  For the email address, use a mailto: hyperlink, like so: 
+    ```html
+    <a href="mailto:whatever@example.com">whatever@example.com</a>.
+    ```
+    This will open the user's email program when clicked.
+10. ![](.guides/img/refresh-preview.png) Refresh your preview and make sure the contact info looks correct.
+{.steps .continue}
+
+
+</script>

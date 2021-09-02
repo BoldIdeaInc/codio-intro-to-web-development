@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <title>Intro to Web Development</title>
-    <style>body:not(.loaded) {display: none}</style>
-  <script defer src=".guides/codio-guide-template/dist/main.bundle.js"></script></head>
-
+    <style>body:not(.loaded) .loaded, body.loaded .not-loaded {display: none}</style>
+    <script src="https://boldidea.org/static/codio-guide-template/main.bundle.js?2"></script>
+  </head>
   <body>
-    <div class="container">
+    <div class="loading not-loaded">
+      loading...
+    </div>
+    <div class="container loaded">
       <main>
         <div id="chapterContent"></div>
         <nav>
@@ -18,6 +21,4 @@
         Copyright © <span class="currentYear"></span> Bold Idea
       </footer>
     </div>
-    
     <script src="https://codio.com/codio-client.js"></script>
-

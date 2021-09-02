@@ -1,0 +1,15 @@
+- assignment: da78f1e8dee153722bc86e6cc5f0c306
+  section:  ["Intro Activities", "Behind the Curtain"]
+  paths: ["01-behind-the-curtain/**"]
+- assignment: a67bc7f97743e2f9dcd3afa42e057c77
+  section:  ["Intro Activities", "Elements and Document Structure"]
+  paths: []
+- assignment: 791ab7b67c8d644fa585112a806a65fe
+  section:  ["Intro Activities", "About My Mentor"]
+  paths: ["03-about-my-mentor/**"]
+- assignment: 73712191e0dd7ac0cd2346a55a2c10a5
+  section:  ["Intro Activities", "Make a How-To Page"]
+  paths: []
+- assignment: efe9ab6bea641d833dccaebdf612c5fd
+  section: ["Guided Project"]
+  paths: ["gp-01-css-rule"]
