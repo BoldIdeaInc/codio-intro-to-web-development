@@ -15,13 +15,21 @@ Click "Next" when you're finished.
 <iframe class="about-my-mentor" src=".guides/about-my-mentor/#formOnly"></iframe>
 </script>
 <script>
+  function setupFrame() {
+    console.log('doc loaded');
+    var iframe = document.querySelector('iframe.about-my-mentor');
+    iframe.addEventListener('load', function() {
+      console.log('iframe loaded')
+      iframe.style.height = iframe.contentDocument.body.scrollHeight + 'px';
+      iframe.style.width = iframe.contentDocument.body.scrollWidth + 'px';
+    });	
+  }
   document.addEventListener('DOMContentLoaded', function() {
-    doc.addEventListener('loaded', function() {
-      var iframe = document.querySelector('iframe.about-my-mentor');
-      iframe.addEventListener('load', function() {
-        iframe.style.height = iframe.contentDocument.body.scrollHeight + 'px';
-        iframe.style.width = iframe.contentDocument.body.scrollWidth + 'px';
-      });	
-    });
+    console.log('DOM Content Loaded')
+    if (document.body.classList.contains('loaded')) {
+      setupFrame();
+    } else {
+      doc.addEventListener('loaded', setupFrame);
+    }
   });
 </script>
