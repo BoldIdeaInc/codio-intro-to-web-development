@@ -12,4 +12,4 @@
   paths: []
 - assignment: efe9ab6bea641d833dccaebdf612c5fd
   section: ["Guided Project"]
-  paths: ["gp-01-css-rule"]
+  paths: ["gp-01-css-rule/**"]
