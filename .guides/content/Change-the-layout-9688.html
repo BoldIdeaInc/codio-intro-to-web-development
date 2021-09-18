@@ -37,10 +37,10 @@ Go ahead and “wrap” both sections inside a new `<div>` element:
    ```
    The `display` property changes the layout behavior of an element or its children. (see your CSS reference for more info).
 7. ![](.guides/img/refresh-preview.png) Refresh your preview. The lists should now appear side-by-side.
-8. In your existing CSS rule for `section`, add `flex-grow: 1` to make the sections evenly fill up all their available space within the flex container:
+8. In your existing CSS rule for `section`, add `flex: 1` to make the sections evenly fill up all their available space within the flex container:
    ```css {data-added-lines="2"}
    section {
-     flex-grow: 1;
+     flex: 1;
      margin: 20px;
      padding: 20px;
    }
