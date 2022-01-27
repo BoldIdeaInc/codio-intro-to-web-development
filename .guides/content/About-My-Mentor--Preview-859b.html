@@ -24,39 +24,7 @@ You should now see a preview of your HTML page below your code. Your code should
 
 The preview should look like this:
 
-<iframe class="mentor-example" style="width: 100%; height: 300px;"></iframe>
+![](.guides/img/about-my-mentor-preview.png){.border .shadow}
 
 If anything looks off, try updating your code, then click the preview refresh button ![refresh button](.guides/img/refresh-preview.png) to re-load your page.
-</script>
-<script>
-  function load() {
-    document.querySelector('iframe.mentor-example').contentDocument.write(
-      `
-      <!DOCTYPE html>
-      <html>
-        <body>
-          <h1>Kris Fawcett</h1>
-          <h2>Never dig straight down!</h2>
-          <p>
-            Kris is an IT support guru and has been a Bold Idea mentor since 2018.
-          </p>
-          <p>Some of Kris's favorite things:</p>
-          <ul>
-            <li>Minecraft</li>
-            <li>Technology</li>
-            <li>Online gaming</li>
-          </ul>
-        </body>
-      </html>
-      `
-    );
-  }
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    if (document.body.classList.contains('loaded')) {
-      load();
-    } else {
-      doc.addEventListener('loaded', load);
-    }
-  });
 </script>
