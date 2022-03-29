@@ -366,7 +366,7 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://courses.boldidea.org/webdev/companies/select-company.html",
+     "path": "#preview: https://static.boldidea.org/courses/webdev/companies/select-company.html",
      "panel": 0,
      "action": "open"
     }
@@ -397,7 +397,7 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://courses.boldidea.org/webdev/companies/email.html#part1",
+     "path": "#preview: https://static.boldidea.org/courses/webdev/companies/email.html#part1",
      "panel": 0,
      "action": "open"
     },
@@ -793,7 +793,7 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://courses.boldidea.org/webdev/companies/email.html#part2",
+     "path": "#preview: https://static.boldidea.org/courses/webdev/companies/email.html#part2",
      "panel": 0,
      "action": "open"
     }
@@ -1013,7 +1013,7 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://courses.boldidea.org/webdev/companies/email.html#part3",
+     "path": "#preview: https://static.boldidea.org/courses/webdev/companies/email.html#part3",
      "panel": 0,
      "action": "open"
     }
@@ -1269,7 +1269,7 @@
      "action": "close"
     },
     {
-     "path": "#preview: https://courses.boldidea.org/webdev/companies/email.html#part4",
+     "path": "#preview: https://static.boldidea.org/courses/webdev/companies/email.html#part4",
      "panel": 0,
      "action": "open"
     }

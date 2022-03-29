@@ -9,9 +9,9 @@
   "preview": {
     "Preview home page": "https://{{domain}}/index.html",
     "Preview current page": "https://{{domain}}/{{filepath}}",
-    "Client Email": "https://courses.boldidea.org/webdev/companies/email.html",
-    "HTML Reference": "https://courses.boldidea.org/webdev/html-reference",
-    "CSS Reference": "https://courses.boldidea.org/webdev/css-reference",
+    "Client Email": "https://static.boldidea.org/courses/webdev/companies/email.html",
+    "HTML Reference": "https://static.boldidea.org/courses/webdev/html-reference",
+    "CSS Reference": "https://static.boldidea.org/courses/webdev/css-reference",
     "Project Publisher": "https://{{domain3000}}"
   }
 }
