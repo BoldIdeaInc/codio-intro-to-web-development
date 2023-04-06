@@ -1,0 +1,25 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "index.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: "
+		}
+	],
+	"id": "5e81e2eb-a752-35e0-20f7-103133250a9d",
+	"layout": "3-cell-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Add a page heading",
+	"type": "page"
+}

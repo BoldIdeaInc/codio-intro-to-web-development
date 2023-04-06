@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "index.html"
+		}
+	],
+	"id": "b34a0936-9d58-fb98-51e0-b34e05d40f85",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Quick tip: Beautify your Code",
+	"type": "page"
+}

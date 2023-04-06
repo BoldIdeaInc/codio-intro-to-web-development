@@ -1,0 +1,36 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "index.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: index.html"
+		}
+	],
+	"id": "dc14214e-ce47-e58e-f9b6-c01910af3d7b",
+	"layout": "3-cell-tree",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Add the company name",
+	"type": "page"
+}

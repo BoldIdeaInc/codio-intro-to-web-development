@@ -1,0 +1,20 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [],
+	"id": "c26ae70f-ab2e-babc-5aaf-b2f18e4ab0f4",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "What else can you customize?",
+	"type": "page"
+}

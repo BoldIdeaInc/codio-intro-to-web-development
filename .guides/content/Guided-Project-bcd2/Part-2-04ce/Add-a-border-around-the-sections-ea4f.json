@@ -1,0 +1,26 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "style.css"
+		}
+	],
+	"id": "ea4f5648-a840-e925-81f6-7447d256035e",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Add a border around the sections",
+	"type": "page"
+}

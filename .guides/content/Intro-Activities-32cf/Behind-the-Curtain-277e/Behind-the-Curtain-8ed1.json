@@ -1,0 +1,20 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#preview: 01-behind-the-curtain/comfty-website/index.html"
+		}
+	],
+	"id": "8ed11611-f9cb-8b90-3710-434029ccb1cb",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Behind the Curtain",
+	"type": "page"
+}

@@ -1,0 +1,25 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "index.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: index.html"
+		}
+	],
+	"id": "f4aeacd3-96d8-d79f-1df5-c830a7522fd4",
+	"layout": "3-cell-tree",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Add a paragraph",
+	"type": "page"
+}

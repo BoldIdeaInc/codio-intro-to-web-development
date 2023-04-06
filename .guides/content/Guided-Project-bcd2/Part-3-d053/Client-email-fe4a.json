@@ -1,0 +1,31 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#preview: https://static.boldidea.org/courses/webdev/companies/email.html#part3"
+		}
+	],
+	"id": "fe4aa488-0b4c-4179-c53f-9a7c4960a038",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Client email",
+	"type": "page"
+}

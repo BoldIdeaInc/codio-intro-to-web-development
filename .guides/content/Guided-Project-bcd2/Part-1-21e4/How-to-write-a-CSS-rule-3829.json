@@ -1,0 +1,41 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "gp-01-css-rule/css-rule.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "gp-01-css-rule/css-rule.css"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: gp-01-css-rule/css-rule.html"
+		}
+	],
+	"id": "38299457-07b8-5614-539b-836d22231f78",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "How to write a CSS rule",
+	"type": "page"
+}

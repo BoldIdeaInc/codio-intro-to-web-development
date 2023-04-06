@@ -1,0 +1,32 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "table.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: table.html"
+		}
+	],
+	"id": "8dac16ac-2539-21a6-da61-e6789886d84c",
+	"layout": "",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Create a new page for the table",
+	"type": "page"
+}

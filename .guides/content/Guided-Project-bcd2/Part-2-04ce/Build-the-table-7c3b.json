@@ -1,0 +1,31 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "table.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: table.html"
+		}
+	],
+	"id": "7c3b50b4-3c53-91ff-8433-725006876475",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Build the table",
+	"type": "page"
+}

@@ -1,0 +1,32 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: about-us.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "about-us.html"
+		}
+	],
+	"id": "b2d55972-2645-b318-7b2e-ffab4e6597d2",
+	"layout": "",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Create the \"About Us\" page",
+	"type": "page"
+}

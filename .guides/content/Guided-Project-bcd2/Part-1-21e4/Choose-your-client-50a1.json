@@ -1,0 +1,31 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#preview: https://static.boldidea.org/courses/webdev/companies/select-company.html"
+		}
+	],
+	"id": "50a14c38-202c-dd84-31b5-d695c4393ce4",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Choose your client",
+	"type": "page"
+}

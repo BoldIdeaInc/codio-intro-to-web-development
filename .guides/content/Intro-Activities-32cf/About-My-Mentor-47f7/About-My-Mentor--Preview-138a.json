@@ -1,0 +1,27 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "03-about-my-mentor/about-my-mentor.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: 03-about-my-mentor/about-my-mentor.html"
+		}
+	],
+	"id": "138a055a-06e6-c642-bf7e-fad929ffdf9f",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [
+		"08-about-my-mentor"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "About My Mentor: Preview",
+	"type": "page"
+}

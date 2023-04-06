@@ -1,0 +1,29 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "01-behind-the-curtain/comfty-website/style.css"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: 01-behind-the-curtain/comfty-website/index.html"
+		}
+	],
+	"id": "cb822813-ec8c-80b5-29d8-a1e2874d6071",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Behind the Curtain: CSS",
+	"type": "page"
+}

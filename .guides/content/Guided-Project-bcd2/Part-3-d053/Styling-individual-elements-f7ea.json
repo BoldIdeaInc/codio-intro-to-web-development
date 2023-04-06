@@ -1,0 +1,41 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "index.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "style.css"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: index.html"
+		}
+	],
+	"id": "f7ea1a0c-9e20-7b03-e70f-748d8b5156c5",
+	"layout": "3-cell-tree",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Styling individual elements",
+	"type": "page"
+}

@@ -1,0 +1,31 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: contact-us.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "contact-us.html"
+		}
+	],
+	"id": "f6443987-4ecd-260f-745f-a941280d656b",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Add the \"Contact Us\" page",
+	"type": "page"
+}

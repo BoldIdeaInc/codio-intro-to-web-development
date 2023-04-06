@@ -1,0 +1,36 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "about-us.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: about-us.html"
+		}
+	],
+	"id": "c7e8332d-91f0-d46e-4f19-572497d3d07c",
+	"layout": "",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Add the slideshow using JavaScript",
+	"type": "page"
+}

@@ -1,0 +1,41 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "table.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "style.css"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: table.html"
+		}
+	],
+	"id": "bafc4333-ebd8-0af2-6a6c-9616dbaee521",
+	"layout": "",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Finding help online",
+	"type": "page"
+}

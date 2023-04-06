@@ -1,0 +1,20 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "03-about-my-mentor/about-my-mentor.html"
+		}
+	],
+	"id": "b0284995-2f7a-175c-c449-33ee1ddcbb09",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "About My Mentor: Code",
+	"type": "page"
+}

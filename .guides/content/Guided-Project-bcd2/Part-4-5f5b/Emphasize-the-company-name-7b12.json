@@ -1,0 +1,61 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "style.css"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "about-us.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "table.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "index.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: about-us.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: table.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: index.html"
+		}
+	],
+	"id": "7b1244f2-8ad3-22d9-8dae-ee7f9f84bf9e",
+	"layout": "3-cell-tree",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Emphasize the company name",
+	"type": "page"
+}

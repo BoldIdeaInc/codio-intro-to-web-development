@@ -1,0 +1,36 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "table.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: table.html"
+		}
+	],
+	"id": "a283fa45-da6e-1872-705c-5cdd2ef43ddc",
+	"layout": "",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Add a Hyperlink",
+	"type": "page"
+}

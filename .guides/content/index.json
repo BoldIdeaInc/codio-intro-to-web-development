@@ -1,0 +1,19 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Intro-Activities-32cf",
+		"Guided-Project-bcd2"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "Intro to Web Development",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": false
+}

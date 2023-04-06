@@ -1,0 +1,26 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "index.html"
+		}
+	],
+	"id": "ef64d8ad-1542-461f-f16c-43fdb70aac18",
+	"layout": "2-panels-tree",
+	"learningObjectives": "",
+	"path": [
+		"index.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Start a new HTML page",
+	"type": "page"
+}

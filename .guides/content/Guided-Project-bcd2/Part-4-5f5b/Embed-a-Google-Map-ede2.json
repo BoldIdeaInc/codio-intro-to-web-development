@@ -1,0 +1,31 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "contact-us.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#preview: contact-us.html"
+		}
+	],
+	"id": "ede2e4c9-babd-8fa5-01c3-52dc705c0f64",
+	"learningObjectives": "",
+	"path": [
+		"images",
+		"index.html",
+		"style.css",
+		"table.html",
+		"about-us.html",
+		"contact-us.html"
+	],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Embed a Google Map",
+	"type": "page"
+}

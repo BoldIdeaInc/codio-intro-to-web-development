@@ -1,0 +1,29 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "html",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "01-behind-the-curtain/comfty-website/index.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: 01-behind-the-curtain/comfty-website/index.html"
+		}
+	],
+	"id": "90d73798-45e3-02ed-d0ae-50823246e19b",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Behind the Curtain: HTML",
+	"type": "page"
+}
